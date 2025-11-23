@@ -1,6 +1,6 @@
 // IMPORTANT: replace RAILWAY_API_URL with your actual Railway endpoint, for example:
 // const RAILWAY_API_URL = "https://rembg-railway-production.up.railway.app";
-export const RAILWAY_API_URL = "REPLACE_WITH_YOUR_RAILWAY_URL"; // <-- change this
+export const RAILWAY_API_URL = "https://rembg-railway-production.up.railway.app"; // <-- change this
 
 // This sandbox file path points to the uploaded image in the environment used earlier.
 // The platform will transform sandbox: paths to usable URLs when applicable.
