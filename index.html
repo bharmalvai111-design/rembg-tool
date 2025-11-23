@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>RemBG Test Tool</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>RemBG Test Tool</h1>
+    <p>Use the UI below to test your Railway RemBG API. Replace <code>RAILWAY_API_URL</code> in <code>config.js</code> with your actual Railway URL (example: <code>https://rembg-railway-production.up.railway.app</code>).</p>
+
+    <div class="controls">
+      <input type="file" id="fileInput" accept="image/*" />
+      <button id="btnRemove">Remove Background</button>
+      <button id="btnAuto">Send Uploaded Sandbox File (for platform test)</button>
+    </div>
+
+    <div class="previews">
+      <div>
+        <h3>Input</h3>
+        <img id="inputPreview" src="" alt="input preview" />
+      </div>
+      <div>
+        <h3>Output</h3>
+        <img id="outputPreview" src="" alt="output preview" />
+      </div>
+    </div>
+
+    <p class="note">If you want to test with the uploaded sandbox image, click <strong>Send Uploaded Sandbox File</strong>. (This works only in the environment that can access the sandbox path.)</p>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
